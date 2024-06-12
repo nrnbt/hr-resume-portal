@@ -230,9 +230,9 @@ const ResumePage: FunctionComponent = () => {
       <Container maxWidth='lg'>
         <Section id='general' title="Ерөнхий мэдээлэл" onEdit={() => handleOpen('general')} resumeData={resume} />
         <Section id='contacts' title="Холбоо барих мэдээлэл" onEdit={() => handleOpen('contacts')} resumeData={resume}  />
-        <Section id= 'education' title="Боловсрол" onEdit={() => handleOpen('education')} resumeData={resume}  />
+        {/* <Section id= 'education' title="Боловсрол" onEdit={() => handleOpen('education')} resumeData={resume}  />
         <Section id='jobExperience' title="Ажлын туршлага" onEdit={() => handleOpen('jobExperience')} resumeData={resume}  />
-        <Section id='abilities' title="Нэмэлт ур чадвар" onEdit={() => handleOpen('abilities')} resumeData={resume}  />
+        <Section id='abilities' title="Нэмэлт ур чадвар" onEdit={() => handleOpen('abilities')} resumeData={resume}  /> */}
       </Container>
       
       {openSection && (

@@ -47,9 +47,9 @@ export default function Page({ params }: { params: { id: string } }) {
         <Container maxWidth='lg'>
           <Section id='general' title="Ерөнхий мэдээлэл" resumeData={resumeData} />
           <Section id='contacts' title="Холбоо барих мэдээлэл" resumeData={resumeData}  />
-          <Section id= 'education' title="Боловсрол" resumeData={resumeData}  />
+          {/* <Section id= 'education' title="Боловсрол" resumeData={resumeData}  />
           <Section id='jobExperience' title="Ажлын туршлага" resumeData={resumeData}  />
-          <Section id='abilities' title="Нэмэлт ур чадвар" resumeData={resumeData}  />
+          <Section id='abilities' title="Нэмэлт ур чадвар" resumeData={resumeData}  /> */}
         </Container>
       ) : (
         <div className="relative flex w-full h-[calc(100vh-100px)] justify-center items-center">
