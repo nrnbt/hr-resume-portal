@@ -120,6 +120,7 @@ const LoginPage: FunctionComponent = () => {
                 fullWidth
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
+                disabled={loading}
               >
                 {loading ? <CircularProgress style={{ color: 'white' }} size={24} /> : 'Нэвтрэх'}
               </Button>
