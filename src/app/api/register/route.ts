@@ -1,7 +1,7 @@
 import { mongoCli as client } from "@/utils/db";
 import bcrypt from 'bcrypt';
 
-export const maxDuration = 300
+export const maxDuration = 60
 
 export async function POST(request: Request) {
   try {
