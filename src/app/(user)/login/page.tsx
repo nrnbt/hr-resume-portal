@@ -121,7 +121,7 @@ const LoginPage: FunctionComponent = () => {
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                {loading ? <CircularProgress className='text-white' size={24} /> : 'Нэвтрэх'}
+                {loading ? <CircularProgress style={{ color: 'white' }} size={24} /> : 'Нэвтрэх'}
               </Button>
               <Grid container>
                 <Grid item xs>

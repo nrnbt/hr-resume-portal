@@ -224,7 +224,7 @@ const RegisterUser: FunctionComponent = () => {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              {loading ? <CircularProgress className='text-white' size={24} /> : 'Бүртгүүлэх'}
+              {loading ? <CircularProgress style={{ color: 'white' }} size={24} /> : 'Бүртгүүлэх'}
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
