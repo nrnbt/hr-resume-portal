@@ -1,6 +1,8 @@
 import { mongoCli as client } from "@/utils/db";
 import { ObjectId } from "mongodb";
 
+export const maxDuration = 300
+
 export async function GET(request: Request, context: { params: { id: string } }) {
   try {
     const { id } = context.params;

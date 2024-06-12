@@ -1,6 +1,8 @@
 import { mongoCli as client } from "@/utils/db";
 import { NextRequest } from "next/server";
 
+export const maxDuration = 300
+
 export async function GET(request: NextRequest) {
   try {
     const registerNo = request.nextUrl.searchParams.get('registerNo')

@@ -2,6 +2,8 @@ import { mongoCli as client } from "@/utils/db";
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
+export const maxDuration = 300
+
 const secretKey = process.env.JWT_SECRET || 'JWT_SECRET';
 
 export async function POST(request: Request) {

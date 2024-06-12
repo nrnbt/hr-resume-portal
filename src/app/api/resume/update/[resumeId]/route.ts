@@ -2,6 +2,8 @@ import { mongoCli as client } from "@/utils/db";
 import dayjs from "dayjs";
 import { ObjectId } from "mongodb";
 
+export const maxDuration = 300
+
 export async function POST(request: Request, context: { params: { resumeId: string } }) {
   try {
     const { resumeId } = context.params;
