@@ -9,7 +9,7 @@ const Home = async() => {
     // Handle errors
   }
  
-  redirect(`/resume`)
+  redirect(`/admin/users`)
 }
 
 export default Home
